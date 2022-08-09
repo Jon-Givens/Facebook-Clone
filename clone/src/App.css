@@ -1,0 +1,13 @@
+.App {
+  text-align: center;
+}
+
+.rightBox {
+  position: fixed;
+  width: 300px;
+  right: 10%;
+}
+
+.rightBarLabels {
+  right: 50%
+}
