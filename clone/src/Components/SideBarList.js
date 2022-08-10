@@ -1,4 +1,4 @@
-import { ListItem, ListItemButton, ListItemIcon, tableBodyClasses } from '@mui/material';
+import { ListItemButton, ListItemIcon } from '@mui/material';
 import HomeIcon from '@mui/icons-material/Home';
 import * as React from 'react';
 import PersonIcon from '@mui/icons-material/Person';
@@ -10,13 +10,6 @@ import ArticleIcon from '@mui/icons-material/Article';
 import ListItemText from '@mui/material/ListItemText';
 import ModeNightIcon from '@mui/icons-material/ModeNight';
 import Switch from '@mui/material/Switch';
-import Fab from '@mui/material/Fab';
-import AddIcon from '@mui/icons-material/Add';
-
-const boldText = {
-    fontWeight: "bold"
-}
-
 
 export const SideBarList = (
     <React.Fragment >
@@ -66,7 +59,7 @@ export const SideBarList = (
             <ListItemIcon> 
                 <ModeNightIcon></ModeNightIcon>
             </ListItemIcon>
-            <Switch/>
+            <Switch  />
         </ListItemButton>
         
     </React.Fragment>
